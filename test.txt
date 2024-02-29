@@ -1,0 +1,10 @@
+ <div class="border bg-yellow-300 h-55 ">
+               <img src="HOSE ICON.png" alt="" class=" px-9 pt-9  h-22 w-46">
+               <img src="HOSE LOGO.png" alt="" class="px-5 pt-3 h-22 w-35 pb-6">
+            </div>
+        </a>
+        <a href=""> 
+            <div class="border bg-yellow-300 h-55 ">
+               <img src="bath icon.png" alt="" class=" px-9 pt-5 pb-1  h-22 w-46">
+               <img src="bath.png" alt="" class="px-1 pt-3 h-32 w-35 pb-1 ">
+            </div>
