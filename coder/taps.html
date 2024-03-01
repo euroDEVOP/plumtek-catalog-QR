@@ -23,31 +23,31 @@
     body {
       font-family: Poppins;
       height: 100vh;
-      padding: 32px;
+      /* padding: 32px; */
       display: grid;
       place-items: center;
       background-color: var(--background);
     }
     
     .gallery {
-      display: flex;
+      /* display: flex; */
       background-color:
         var(--background);
       gap: 16px;
-      scale: 1.6;
+      /* scale: 1.6; */
     }
     
     .card {
       position: relative;
       left: 0px;
-      width: 140px;
-      height: 160px;
+      width: 100px;
+      height: 100px;
       background-color:
         var(--background);
       border-radius: 8px;
-      transition: 1000ms all;
+      /* transition: 1000ms all;
       transform-origin:
-        center left;
+        center left; */
       box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
       outline: 1px solid var(--background);
       overflow: hidden;
@@ -152,7 +152,13 @@
       color: white;
       font-family: "Rubik", sans-serif;
       transition: color 600ms;
-    }</style>
+    }
+    @media (max-width: 600px) {
+    #hhh {
+        font-size: 14px;
+        background-color: aliceblue;
+    }}
+    </style>
 </head>
 <body>
   <div class="gallery">
@@ -185,7 +191,9 @@
   </div>
 
 
-
+<h1 id="hhh">
+  rfgppijethgpirtijh
+</h1>
 </body>
 
 </html>

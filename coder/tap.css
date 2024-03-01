@@ -22,7 +22,7 @@ body {
 }
 
 .gallery {
-  display: flex;
+  /* display: flex; */
   background-color:
     var(--background);
   gap: 16px;
@@ -145,3 +145,9 @@ body {
   font-family: "Rubik", sans-serif;
   transition: color 600ms;
 }
+
+
+@media (max-width: 600px) {
+#hhh {
+      font-size: 14px;
+  }}
